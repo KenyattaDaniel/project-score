@@ -1,0 +1,3 @@
+# Keep files and folders out of version control 
+.ipynb_checkpoints
+
