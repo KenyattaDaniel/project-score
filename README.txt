@@ -9,10 +9,12 @@ The purpose of this script is to explore the idea of creating a credit scoring m
 2. File Contents
 Within this zip folder you will find the following files:
 a. README.txt 
-b. SMEsCashflowModelling.ipynb
-c. Requirements.txt
-d. sum_bank_trans.csv (contained within folder named "data")
-e. feature_select_framework.png (contained within folder named "images")
+b. SMEsBankTransPrep.ipynb
+c. SMEsCashflowModelling.ipynb
+d. Requirements.txt
+e. annon_bank_trans.csv (contained within "data" folder)
+f. sum_bank_trans.csv (contained within "data" folder)
+g. feature_select_framework.png (contained within folder named "images")
 
 
 3. Getting Started
@@ -20,7 +22,7 @@ a. Installing Python and Libraries
 In-order to get started you will need to have Python 3 in addition to several libraries installed on your local machine. I would recommend that you install Python 3 using the Anaconda or Miniconda distributions. For information on this, please visit; https://docs.anaconda.com/anaconda/install/index.html OR https://docs.conda.io/en/latest/miniconda.html. 
 
 b. Creating an Environment
-I would also recommend that you create a special environment specifically for running the Python code contained in the SMEsCreditScoring.ipynb file. After you have installed anaconda or miniconda on your machine, you can create an environment using the requirements.txt file and the bash command line command;
+I would also recommend that you create a special environment specifically for running the Python code contained in the Jupyter Notebook files. After you have installed anaconda or miniconda on your machine, you can create an environment using the requirements.txt file and the bash command line command;
 
 $ conda create --name <yourenvname> --file requirements.txt
 
